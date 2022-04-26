@@ -26,10 +26,10 @@
 #if defined(USE_SDL2)
 #include <SDL2/SDL.h>
 #else
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 #endif
 #else
-#include "SDL.h"
+#include "SDL2/SDL.h"
 #endif
 
 #ifndef	SDL_INIT_CDROM
